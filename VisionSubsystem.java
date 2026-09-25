@@ -16,30 +16,6 @@ import frc.robot.Constants;
  *
  * Reads AprilTag data from PhotonVision running on the Raspberry Pi 5
  * with the Logitech C270 webcam.
- *
- * =====================================================================
- * PHOTONVISION SETUP (do this before your first match):
- * =====================================================================
- *   1. Download PhotonVision for Raspberry Pi 5:
- *      https://github.com/PhotonVision/photonvision/releases
- *      Get the file: photonvision-v*-linuxarm64.jar
- *
- *   2. Flash it to the Pi using the instructions at:
- *      https://docs.photonvision.org/en/latest/docs/installation/sw_install/raspberry-pi.html
- *
- *   3. Plug the C270 into the Pi via USB, connect Pi to robot network
- *
- *   4. Open browser on driver station: http://photonvision.local:5800
- *      (or http://10.TE.AM.11:5800 if .local doesn't resolve)
- *
- *   5. In the dashboard:
- *      - Set camera name to "DigBotCamera" (must match CAMERA_NAME constant)
- *      - Set resolution to 640x480
- *      - Select pipeline type: AprilTag
- *      - Set tag family: 36h11
- *      - Enable "Do Multi-Target Estimation" if available
- *
- * =====================================================================
  * APRILTAG LAYOUT FOR REBUILT 2026:
  * =====================================================================
  *   HUB tags (44.25in = 1.124m off floor):
